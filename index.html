@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atap - Kasir dan Stok Barang</title>
+<style>
+  :root { --ink:#23262C; --cream:#FDF0DC; --blue:#2563EB; --muted:#475569; --bg:#F8FAFC; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; }
+  main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+  .mark { width:72px; height:72px; border-radius:16px; background:var(--cream); display:grid; place-items:center; }
+  h1 { font-size:2rem; margin:20px 0 4px; }
+  p.lead { color:var(--muted); font-size:1.1rem; margin-top:0; }
+  ul { padding-left:20px; }
+  a { color:var(--blue); }
+  footer { margin-top:40px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true">
+    <svg width="48" height="28" viewBox="262 412 740 416"><path fill="#23262C" d="M277.8,734.8 L577,437 C590,424 616,428 616,458 L616,540 C616,548 612,555 607,560 L354.2,811.2 A54,54 0 0,1 277.8,734.8 Z"/><path fill="#23262C" d="M986.2,734.8 L687,437 C674,424 648,428 648,458 L648,540 C648,548 652,555 657,560 L909.8,811.2 A54,54 0 0,0 986.2,734.8 Z"/></svg>
+  </div>
+  <h1>Atap</h1>
+  <p class="lead">Aplikasi kasir dan stok barang untuk toko dan warung, dipakai di satu HP Android.</p>
+
+  <h2>Yang bisa dilakukan</h2>
+  <ul>
+    <li>Melayani pembeli: pilih atau scan barang, hitung kembalian, dan cetak struk lewat printer Bluetooth.</li>
+    <li>Mencatat stok: barang masuk, barang keluar, dan hitung stok (stok opname).</li>
+    <li>Melihat laporan penjualan, kas, dan stok, lalu menyimpannya sebagai PDF atau Excel.</li>
+    <li>Membagi akses: Pemilik, Supervisor, dan Kasir masing-masing punya PIN dan hak sendiri.</li>
+  </ul>
+
+  <h2>Data toko tetap milik toko</h2>
+  <p>Kasir tetap jalan tanpa internet. Data disimpan di HP toko. Bila pemilik menghubungkan akun Google, salinan
+  cadangan terenkripsi disimpan di Google Drive milik pemilik sendiri. Atap tidak punya server dan tidak menerima data
+  toko.</p>
+
+  <p><a href="privacy.html">Kebijakan privasi</a></p>
+
+  <footer>Atap</footer>
+</main>
+</body>
+</html>
